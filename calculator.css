@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    /*darkred;*/
+  }
+
+  p {
+      color: white;
+      font-size: 35px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+.container {
+    /*position: absolute;|*/
+    margin: auto;
+    background-color: black;
+    height: 610px;
+    width: 410px;
+    flex: auto;
+}
+
+.output_screen {
+    height: 100px;
+    margin-left: 0px; 
+    margin-right: 0px;
+    margin-top: 2px;
+}
+.output_number {
+    text-align: right;
+    vertical-align: middle;
+    line-height: 100px;   
+    padding-right: 5px;
+
+    color: white;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row {
+    height: 100px;
+    margin-left: 0px; 
+    margin-right: 0px;
+    margin-top: 2px;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: .5%;
+}
+
+button {
+    height: inherit;
+    width: 24.5%;
+    margin: 0px;
+    border-radius: 0px;
+    border: none;
+    font-size: 35px;
+    cursor: pointer;
+}
+.zero {
+    width: 74.8%;
+}
+.clear{
+    width: 49.7%;
+}
+
+.op {
+    background-color: orange;
+    color: white;
+}
+.equal {
+    background-color: orange;
+    color: white;
+}
+button:hover {
+    opacity: 90%;
+}
+button:active {
+    opacity: 110%;
+}
+
+.button:last-child {
+    background-color: blue;
+}
